@@ -306,3 +306,12 @@ updAcertos = function()
 	$("#erros").html(erros.toString());
 	$("#media").html(((acertos * 10) / 9).toString().substring(0, 4));
 }
+
+function checkRadio() {
+    var isChecked = jQuery("input[name=fileType]:checked").val();
+    var booleanVlaueIsChecked = false;
+    if (!isChecked) {
+        booleanVlaueIsChecked = true;
+        alert('Selecione algum logotipo');
+    }
+ }
