@@ -5,6 +5,43 @@
 	box-sizing: border-box;
 }
 
+
+
+label{
+	color: rgb(2, 2, 2);
+	font-size: 1rem;
+	
+}
+
+input[type="radio"]{
+	margin-bottom: 0.4rem;
+}
+
+.tabela__questao{
+	
+	background: #fff;
+	height: 20vh;
+	align-items: center;
+	column-gap: 1rem;
+}
+
+form{
+	display: flex;
+	column-gap: 1rem;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.buttons{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 1rem;	
+}
+
 /* Body */
 body {
 	font-family: "Open Sans", sans-serif;
