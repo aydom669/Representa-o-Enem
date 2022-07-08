@@ -312,6 +312,6 @@ function checkRadio() {
     var booleanVlaueIsChecked = false;
     if (!isChecked) {
         booleanVlaueIsChecked = true;
-        alert('Selecione algum logotipo');
+        alert('Selecione alguma Questâo');
     }
  }
